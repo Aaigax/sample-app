@@ -79,12 +79,12 @@ app.use(function (req, res, next) {
 // SERVER STATIC FILES:
 // =============================================================================
 
-// app.use(express.static(__dirname + '/'));
+app.use(express.static(__dirname + '/'));
 
 app.get('/', function (req, res) {
 
-  // res.sendFile(path.join(__dirname + '/index.html'));
-  res.send('Hello, My first NodeJS App has been deployed!')
+  res.sendFile(path.join(__dirname + '/index.html'));
+  // res.send('Hello, My first NodeJS App has been deployed!')
 
 });
 
