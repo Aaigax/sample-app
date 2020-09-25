@@ -98,7 +98,7 @@ app.get('/users', function (req, res) {
 // EXT. ROUTES
 // =============================================================================
 
-// require('./routes/route')(app, passport);
+require('./routes/route')(app, passport);
 
 // =============================================================================
 // SETUP PORT:
