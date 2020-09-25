@@ -1,6 +1,4 @@
 var mysql = require('mysql');
-// var aws = require('aws-sdk');
-// var uuid = require('uuid');
 
 // var connection = mysql.createConnection({
 //   host: 'localhost',
@@ -12,7 +10,7 @@ var mysql = require('mysql');
 
 var connection = mysql.createConnection({
   host: 'aws-sample.ch17u3pxo3ux.ap-southeast-2.rds.amazonaws.com',
-  user:'admin',
+  user: 'admin',
   password: 'AlatinaX!83',
   database: 'db_httpsnodejs',
   port: 3306,
