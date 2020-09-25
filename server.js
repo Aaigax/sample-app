@@ -88,17 +88,17 @@ app.get('/', function (req, res) {
 
 });
 
-// app.get('/users', function (req, res) {
+app.get('/users', function (req, res) {
 
-//   res.sendFile(path.join(__dirname + '/html/users.html'));
+  res.sendFile(path.join(__dirname + '/html/users.html'));
 
-// });
+});
 
 // =============================================================================
 // EXT. ROUTES
 // =============================================================================
 
-require('./routes/route')(app, passport);
+// require('./routes/route')(app, passport);
 
 // =============================================================================
 // SETUP PORT:
